@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.taticoolsiege.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.example.taticoolsiege.ui.mylist.MyListFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.taticoolsiege.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_my_list" />
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.taticoolsiege.ui.create.ListFragment"
+        android:label="@string/menu_create"
+        tools:layout="@layout/fragment_create" />
+
+    <fragment
+        android:id="@+id/nav_mylist"
+        android:name="com.example.taticoolsiege.ui.share.ShareFragment"
+        android:label="@string/menu_mylist"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.taticoolsiege.ui.send.SendFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_send" />
+</navigation>

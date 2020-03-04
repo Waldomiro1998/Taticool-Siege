@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Taticool Siege</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Taticool Siege</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Detalhamento">Detalhamento</string>
+    <string name="Confirmar">Confirmar</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorites">Favoritos</string>
+    <string name="menu_search">Busca</string>
+    <string name="menu_create">Criar nova tática</string>
+    <string name="menu_mylist">Minhas táticas</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_cadastro">Cadastro</string>
+    <string name="menu_exit">Sair</string>
+    <string name="menu_save">Salvar</string>
+
+    <string name="layout_nome">Nome</string>
+    <string name="title_activity_create">Create</string>
+
+
+    <string name="ash">Ash</string>
+    <string name="bandit">Bandit</string>
+    <string name="blitz">Blitz</string>
+    <string name="castle">Castle</string>
+    <string name="doc">Doc</string>
+    <string name="fuze">Fuze</string>
+    <string name="glaz">Glaz</string>
+    <string name="iq">Iq</string>
+    <string name="jager">Jager</string>
+    <string name="kapkan">Kapkan</string>
+    <string name="montagne">Montagne</string>
+    <string name="mute">Mute</string>
+    <string name="pulse">Pulse</string>
+    <string name="rook">Rook</string>
+    <string name="sledge">Sledge</string>
+    <string name="smoke">Smoke</string>
+    <string name="tachanka">Tachanka</string>
+    <string name="thatcher">Thatcher</string>
+    <string name="thermite">Thermite</string>
+    <string name="twitch">Twitch</string>
+
+    <string name="ash_gadget">Munição Explosiva</string>
+    <string name="bandit_gadget">Bateria de Choque</string>
+    <string name="blitz_gadget">Escudo Flash</string>
+    <string name="castle_gadget">Painel Protetor</string>
+    <string name="doc_gadget">Pistola Estimulante</string>
+    <string name="fuze_gadget">Perfurador Cluster</string>
+    <string name="glaz_gadget">Mira térmica</string>
+    <string name="iq_gadget">Detector de eletrônicos</string>
+    <string name="jager_gadget">SDA</string>
+    <string name="kapkan_gadget">Dispositivo de Entrada</string>
+    <string name="montagne_gadget">Esccudo do Montagne</string>
+    <string name="mute_gadget">Disruptor de Sinal</string>
+    <string name="pulse_gadget">Sensor Cárdiaco</string>
+    <string name="rook_gadget">Placa Balística</string>
+    <string name="sledge_gadget">Marreta de Demolição</string>
+    <string name="smoke_gadget">Gás tôxico</string>
+    <string name="tachanka_gadget">Metralhadora Montada</string>
+    <string name="thatcher_gadget">Granada EMP</string>
+    <string name="thermite_gadget">Carga Exotérmica</string>
+    <string name="twitch_gadget">Drone de Choque</string>
+
+
+    <string name="arame">Arame</string>
+    <string name="escudo">Escudo Ajustável</string>
+    <string name="c4">C4</string>
+    <string name="impacto">Granada de Impacto</string>
+    <string name="camera">Câmera Blindada</string>
+    <string name="flash">Granada Atordoante</string>
+    <string name="frag">Granada de Fragmentação</string>
+    <string name="granadasmoke">Granada de Fumaça</string>
+    <string name="carga">Carga de Demolição</string>
+    <string name="claymore">Claymore</string>
+
+    <string name="reforco">Reforço</string>
+    <string name="rotacao">Rotação</string>
+
+    <string name="nome_tatica">Tática</string>
+
+    <item name="type" type="id" />
+    <item name="floor" type="id" />
+
+    <string-array name="tipodetatica">
+        <item>Intel</item>
+        <item>Armadilha</item>
+        <item>Negação de Plant</item>
+        <item>Caçada</item>
+        <item>Plant direto</item>
+        <item>Negação de intel</item>
+        <item>Sobrevida</item>
+        <item>Rush</item>
+        <item>HardBreaching</item>
+        <item>Ataque Vertical</item>
+        <item>Outro</item>
+
+    </string-array>
+
+    <string-array name="tipodetaticaBusca">
+        <item>Todos</item>
+        <item>Intel</item>
+        <item>Armadilha</item>
+        <item>Negação de Plant</item>
+        <item>Caçada</item>
+        <item>Plant direto</item>
+        <item>Negação de intel</item>
+        <item>Sobrevida</item>
+        <item>Rush</item>
+        <item>HardBreaching</item>
+        <item>Ataque Vertical</item>
+        <item>Outro</item>
+
+    </string-array>
+
+    <string-array name="numeroDePlayers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+
+    </string-array>
+
+    <string-array name="mapas">
+        <item>Todos</item>
+        <item>Banco</item>
+        <item>Litoral</item>
+        <item>Mansão</item>
+        <item>Outback</item>
+        <item>Parque</item>
+
+
+
+    </string-array>
+</resources>

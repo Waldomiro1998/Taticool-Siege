@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+
+    <group android:checkableBehavior="single">
+
+
+    </group>
+
+    <group android:id="@+id/nav_group_atacantes">
+
+            <item
+                android:id="@+id/nav_ash"
+                android:icon="@drawable/ash"
+                android:title="@string/ash" />
+            <item
+                android:id="@+id/nav_blitz"
+                android:icon="@drawable/blitz"
+                android:title="@string/blitz" />
+            <item
+                android:id="@+id/nav_fuze"
+                android:icon="@drawable/fuze"
+                android:title="@string/fuze" />
+            <item
+                android:id="@+id/nav_glaz"
+                android:icon="@drawable/glaz"
+                android:title="@string/glaz" />
+            <item
+                android:id="@+id/nav_muiq"
+                android:icon="@drawable/iq"
+                android:title="@string/iq" />
+            <item
+                android:id="@+id/nav_montagne"
+                android:icon="@drawable/montagne"
+                android:title="@string/montagne" />
+            <item
+                android:id="@+id/nav_sledge"
+                android:icon="@drawable/sledge"
+                android:title="@string/sledge" />
+            <item
+                android:id="@+id/nav_thatcher"
+                android:icon="@drawable/thatcher"
+                android:title="@string/thatcher" />
+            <item
+                android:id="@+id/nav_thermite"
+                android:icon="@drawable/thermite"
+                android:title="@string/thermite" />
+
+    </group>
+
+    <group android:id="@+id/nav_group_defensores">
+
+            <item
+                android:id="@+id/nav_bandit"
+                android:icon="@drawable/bandit"
+
+                android:title="@string/bandit" />
+            <item
+                android:id="@+id/nav_castle"
+                android:icon="@drawable/castle"
+                android:title="@string/castle" />
+            <item
+                android:id="@+id/nav_doc"
+                android:icon="@drawable/doc"
+                android:title="@string/doc" />
+            <item
+                android:id="@+id/nav_jager"
+                android:icon="@drawable/jager"
+                android:title="@string/jager" />
+            <item
+                android:id="@+id/nav_mute"
+                android:icon="@drawable/mute"
+                android:title="@string/mute" />
+            <item
+                android:id="@+id/nav_pulse"
+                android:icon="@drawable/pulse"
+                android:title="@string/pulse" />
+            <item
+                android:id="@+id/nav_kapkan"
+                android:icon="@drawable/kapkan"
+                android:title="@string/kapkan" />
+            <item
+                android:id="@+id/nav_smoke"
+                android:icon="@drawable/smoke"
+                android:title="@string/smoke" />
+        <item
+            android:id="@+id/nav_tachanka"
+            android:icon="@drawable/tachanka"
+            android:title="@string/tachanka" />
+
+
+
+    </group>
+    <group  android:id="@+id/nav_group_gadget_primario">
+        <item
+            android:id="@+id/nav_ash_gadget"
+            android:icon="@drawable/ashgadget"
+            android:title="@string/ash_gadget" />
+        <item
+            android:id="@+id/nav_bandit_gadget"
+            android:icon="@drawable/banditgadget"
+            android:title="@string/bandit_gadget" />
+        <item
+            android:id="@+id/nav_castle_gadget"
+            android:icon="@drawable/castlegadget"
+            android:title="@string/castle_gadget" />
+        <item
+            android:id="@+id/nav_fuze_gadget"
+            android:icon="@drawable/fuzegadget"
+            android:title="@string/fuze_gadget" />
+
+        <item
+            android:id="@+id/nav_jagger_gadget"
+            android:icon="@drawable/jagergadget"
+            android:title="@string/jager_gadget" />
+        <item
+            android:id="@+id/nav_kapkan_gadget"
+            android:icon="@drawable/kapkangadget"
+            android:title="@string/kapkan_gadget" />
+        <item
+            android:id="@+id/nav_mute_gadget"
+            android:icon="@drawable/mutegadget"
+            android:title="@string/mute_gadget" />
+
+        <item
+            android:id="@+id/nav_tachanka_gadget"
+            android:icon="@drawable/tachankagadget"
+            android:title="@string/tachanka_gadget" />
+        <item
+            android:id="@+id/nav_thatcher_gadget"
+            android:icon="@drawable/tatchergadget"
+            android:title="@string/thatcher_gadget" />
+
+        <item
+            android:id="@+id/nav_thermite_gadget"
+            android:icon="@drawable/thermitegadget"
+            android:title="@string/thermite_gadget" />
+
+
+    </group>
+
+    <group android:id="@+id/nav_group_gadget_secundario">
+        <item
+        android:id="@+id/nav_arame"
+        android:icon="@drawable/arame"
+        android:title="@string/arame" />
+        <item
+            android:id="@+id/nav_escudo"
+            android:icon="@drawable/escudo"
+            android:title="@string/escudo" />
+        <item
+            android:id="@+id/nav_c4"
+            android:icon="@drawable/c4"
+            android:title="@string/c4" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/camerablindada"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/nav_impacto"
+            android:icon="@drawable/impacto"
+            android:title="@string/impacto" />
+        <item
+            android:id="@+id/nav_flash"
+            android:icon="@drawable/flash"
+            android:title="@string/flash" />
+        <item
+            android:id="@+id/nav_frag"
+            android:icon="@drawable/frag"
+            android:title="@string/frag" />
+        <item
+            android:id="@+id/nav_smokeGrenade"
+            android:icon="@drawable/smokegadget"
+            android:title="@string/granadasmoke" />
+        <item
+            android:id="@+id/nav_clarmore"
+            android:icon="@drawable/claymore"
+            android:title="@string/claymore" />
+        <item
+            android:id="@+id/nav_carga"
+            android:icon="@drawable/carga"
+            android:title="@string/carga" />
+
+
+    </group>
+
+    <group android:id="@+id/nav_group_marcacoes">
+        <item
+            android:id="@+id/nav_rotacao"
+            android:icon="@drawable/explosion"
+            android:title="@string/rotacao" />
+        <item
+            android:id="@+id/nav_reforco"
+            android:icon="@drawable/wall"
+            android:title="@string/reforco" />
+    </group>
+
+    <item
+        android:id="@+id/nav_voltar"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/menu_exit" />
+
+</menu>

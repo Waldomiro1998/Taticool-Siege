@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_degrade_2_rotete">
+
+    <EditText
+        android:id="@+id/editCadastroSenha"
+        android:layout_width="222dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_text_box"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/editCadastroSenha2"
+        app:layout_constraintEnd_toEndOf="@+id/editCadastroSenha2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editCadastroSenha2"
+        app:layout_constraintTop_toBottomOf="@+id/editCadastroEmail" />
+
+    <EditText
+        android:id="@+id/editCadastroEmail"
+        android:layout_width="222dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/background_text_box"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/editCadastroSenha"
+        app:layout_constraintEnd_toEndOf="@+id/editCadastroSenha"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="@+id/editCadastroSenha"
+        app:layout_constraintTop_toBottomOf="@+id/editCadstroName" />
+
+    <EditText
+        android:id="@+id/editCadstroName"
+        android:layout_width="222dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/background_text_box"
+        android:ems="10"
+        android:hint="Nome"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/editCadastroEmail"
+        app:layout_constraintEnd_toEndOf="@+id/editCadastroEmail"
+        app:layout_constraintStart_toStartOf="@+id/editCadastroEmail"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editCadastroSenha2"
+        android:layout_width="222dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/background_text_box"
+        android:ems="10"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCadastroSenha" />
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="241dp"
+        android:layout_height="258dp"
+
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/editCadstroName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/siege" />
+
+    <Button
+        android:id="@+id/buttonCadastro"
+        android:layout_width="222dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/background_button"
+        android:shadowColor="#000000"
+        android:text="@string/menu_cadastro"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/progressCadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCadastroSenha2" />
+
+    <ProgressBar
+        android:id="@+id/progressCadastro"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
